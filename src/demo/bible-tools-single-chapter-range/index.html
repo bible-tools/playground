@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>bible-tools-single-chapter-range</title>
+  <link rel="stylesheet" type="text/css" href="../styles/theme.css">
+  <style>
+    :root {
+      --bible-tools-single-chapter-range-reference-color: black;
+      --bible-tools-single-chapter-range-reference-font: bold 1rem sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <script type="module">
+    import '../../components/bible-tools-single-verse.js'
+    import '../../components/bible-tools-single-chapter-range.js'
+  </script>
+
+  <p>
+    <bible-tools-single-chapter-range
+      hasReference
+      book="Acts"
+      chapter="5"
+      startverse="17"
+      endverse="42"
+    ></bible-tools-single-chapter-range>
+  </p>
+  <p>
+    <bible-tools-single-chapter-range
+      hasReference
+      book="I Peter"
+      chapter="2"
+      startverse="11"
+      endverse="17"
+    ></bible-tools-single-chapter-range>
+  </p>
+  <p>
+    <bible-tools-single-chapter-range
+      hasReference
+      book="Romans"
+      chapter="13"
+      startverse="1"
+      endverse="7"
+    ></bible-tools-single-chapter-range>
+  </p>
+</body>
+</html>

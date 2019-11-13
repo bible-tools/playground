@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>bible-tools-single-chapter-range-delay</title>
+  <link rel="stylesheet" type="text/css" href="../styles/theme.css">
+</head>
+
+<body>
+  <script type="module">
+    import '../../components/bible-tools-single-verse.js'
+    import '../../components/bible-tools-single-chapter-range-delay.js'
+  </script>
+
+  <bible-tools-single-chapter-range-delay
+    delay="500"
+    isBlock
+    hasVerses
+    hasReference
+    book="Romans"
+    chapter="1"
+    startverse="1"
+    endverse="3">
+  </bible-tools-single-chapter-range-delay>
+
+  <bible-tools-single-chapter-range-delay
+    delay="500"
+    isBlock
+    hasVerses
+    hasReference
+    book="John"
+    chapter="1"
+    startverse="1"
+    endverse="3">
+  </bible-tools-single-chapter-range-delay>
+
+  <bible-tools-single-chapter-range-delay
+    delay="500"
+    isBlock
+    hasVerses
+    hasReference
+    book="Psalms"
+    chapter="119"
+    startverse="1"
+    endverse="176">
+  </bible-tools-single-chapter-range-delay>
+</body>
+</html>

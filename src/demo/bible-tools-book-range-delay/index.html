@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>bible-tools-range-delay</title>
+  <link rel="stylesheet" type="text/css" href="../styles/theme.css">
+</head>
+
+<body>
+  <script type="module">
+    import '../../components/bible-tools-single-verse.js'
+    import '../../components/bible-tools-single-chapter-range-delay.js'
+    import '../../components/bible-tools-book-range-delay.js'
+  </script>
+
+  <bible-tools-book-range-delay
+    isBlock
+    hasVerses
+    hasReference
+    startbook="II Peter"
+    startchapter="3"
+    startverse="4"
+    endbook="Revelation of John"
+    endchapter="1"
+    endverse="8"
+  ></bible-tools-book-range-delay>
+</body>
+</html>

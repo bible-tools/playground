@@ -1,0 +1,25 @@
+body {
+  background-color: #fff;
+}
+
+[data-words-in-red] {
+  --bible-tools-single-verse-text-color: red;
+}
+
+article h1.reference {
+  font: bold 1.5rem sans-serif;
+}
+
+span.reference {
+  font: bold 1rem sans-serif;
+}
+
+article > p.text {
+  color: var(--bible-tools-single-verse-text-color);
+  font: normal 1rem sans-serif;
+}
+
+span.text {
+  color: var(--bible-tools-single-verse-text-color);
+  font: normal 1rem sans-serif;
+}
